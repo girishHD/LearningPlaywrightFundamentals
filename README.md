@@ -76,6 +76,7 @@ tests/
 - `tests/02_first_tests/235_TEST_I_PW.spec.ts` - Test instance playwright
 - `tests/02_first_tests/236_BCP_TEST_PW.spec.ts` - Browser context test playwright
 - `tests/02_first_tests/237_BCP_Test_Options.spec.ts` - Browser context test options
+- `tests/02_first_tests/Exercise.spec.ts` - Two users interact exercise
 
 ### Other Files
 
