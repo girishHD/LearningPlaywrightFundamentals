@@ -65,6 +65,18 @@ tests/
 └── Projects
 ```
 
+### Test Files
+
+- `tests/01_Basics/229_Basic_Test.spec.ts` - Basic test structure
+- `tests/01_Basics/230_Test_Annotations.spec.ts` - Test annotations
+- `tests/02_first_tests/231_First_Running_Verify.spec.ts` - First running verify test
+- `tests/02_first_tests/232_BCP.spec.ts` - Browser context page
+- `tests/02_first_tests/233_BCP_MultipleContext.spec.ts` - Multiple browser contexts
+- `tests/02_first_tests/234_BCP_Multiple_Pages.spec.ts` - Multiple pages in browser context
+- `tests/02_first_tests/235_TEST_I_PW.spec.ts` - Test instance playwright
+- `tests/02_first_tests/236_BCP_TEST_PW.spec.ts` - Browser context test playwright
+- `tests/02_first_tests/237_BCP_Test_Options.spec.ts` - Browser context test options
+
 ### Other Files
 
 - `playwright.config.ts` - Playwright configuration
