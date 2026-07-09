@@ -77,12 +77,19 @@ tests/
 - `tests/02_first_tests/236_BCP_TEST_PW.spec.ts` - Browser context test playwright
 - `tests/02_first_tests/237_BCP_Test_Options.spec.ts` - Browser context test options
 - `tests/02_first_tests/Exercise.spec.ts` - Two users interact exercise
+- `tests/02_first_tests/HTTP_Credential.spec.ts` - HTTP credentials testing
+- `tests/02_first_tests/Incognito_Mode.spec.ts` - Incognito mode testing
+- `tests/03_Locators_Commands/238_LS.spec.ts` - Locator commands
+- `tests/03_Locators_Commands/Referer.spec.ts` - Referer header testing
 
 ### Other Files
 
 - `playwright.config.ts` - Playwright configuration
 - `playwright-report/` - Test report output
 - `test-results/` - Test result artifacts
+- `tests/03_Locators_Commands/form.html` - HTML form for testing
+- `explain-playwright-skill.md` - Playwright skill documentation
+- `opencode.json` - OpenCode configuration
 
 ## Resources
 
