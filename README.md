@@ -88,6 +88,8 @@ tests/
 - `playwright-report/` - Test report output
 - `test-results/` - Test result artifacts
 - `tests/03_Locators_Commands/form.html` - HTML form for testing
+- `tests/example.spec.ts` - Example test file
+- `tests/Template.spec.ts` - Test template
 - `explain-playwright-skill.md` - Playwright skill documentation
 - `opencode.json` - OpenCode configuration
 
