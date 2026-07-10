@@ -5,9 +5,9 @@ test("login test", async ({ page }) => {
     // Playwright already launched a browser, created a context, and opened this page
 
     await page.goto("https://app.vwo.com/#login");
-    await page.fill("#username", "admin");
-    await page.fill("#password", "pass123");
-    await page.click("#login-btn");
+    await page.fill("#login-username", "admin");
+    await page.fill("#login-password", "pass123");
+    await page.click("#js-login-btn");
 
     await expect(page).toHaveURL("/dashboard");
 });
