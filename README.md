@@ -80,6 +80,8 @@ tests/
 - `tests/02_first_tests/HTTP_Credential.spec.ts` - HTTP credentials testing
 - `tests/02_first_tests/Incognito_Mode.spec.ts` - Incognito mode testing
 - `tests/03_Locators_Commands/238_LS.spec.ts` - Locator commands
+- `tests/03_Locators_Commands/239_Project_VWO_Login.spec.ts` - VWO login page error verification
+- `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise
 - `tests/03_Locators_Commands/Referer.spec.ts` - Referer header testing
 
 ### Other Files
