@@ -1,6 +1,6 @@
 # Learning Playwright Fundamentals
 
-This repository contains my learning journey through Playwright, a modern end-to-end testing framework for web applications.
+This repository contains my learning journey through Playwright, a modern end-to-end testing framework for web applications. It covers fundamental concepts from basic tests to advanced frameworks including Page Object Model, fixtures, and data-driven testing.
 
 ## Getting Started
 
@@ -81,7 +81,7 @@ tests/
 - `tests/02_first_tests/Incognito_Mode.spec.ts` - Incognito mode testing
 - `tests/03_Locators_Commands/238_LS.spec.ts` - Locator commands
 - `tests/03_Locators_Commands/239_Project_VWO_Login.spec.ts` - VWO login page error verification
-- `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise
+- `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise (locator strategies, form interactions, assertions)
 - `tests/03_Locators_Commands/Referer.spec.ts` - Referer header testing
 
 ### Other Files
@@ -99,3 +99,25 @@ tests/
 
 - [Playwright Documentation](https://playwright.dev/docs/intro)
 - [Playwright GitHub](https://github.com/microsoft/playwright)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
+## Learning Topics
+
+This project covers the following Playwright topics:
+
+- **Basic Test Structure** - Test syntax, annotations, and organization
+- **Browser Context & Pages** - Multiple contexts, pages, and incognito mode
+- **Locators & Commands** - Various locator strategies and element interactions
+- **Forms & Input** - Dropdowns, checkboxes, text fields, and form validation
+- **Assertions** - Expect assertions and custom matchers
+- **Session Storage** - Handling browser session storage
+- **Allure Reporting** - Test reporting with Allure
+- **Multiple Elements** - Handling collections of elements
+- **Web Tables** - Interacting with table data
+- **Select & Frames** - Dropdown selections and iframe handling
+- **Keyboard & Mouse Actions** - Keyboard events, hover, drag and drop
+- **JavaScript Alerts** - Dialog handling
+- **SVG Elements** - Interacting with SVG graphics
+- **Shadow DOM** - Working with shadow DOM components
+- **File Operations** - Upload and download handling
+- **Scroll Actions** - Element scrolling techniques

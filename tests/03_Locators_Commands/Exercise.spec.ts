@@ -21,7 +21,7 @@ test("Verify the Make Appointment is visible", async ({ page }) => {
     let dateField = page.locator('xpath=//input[@id="txt_visit_date"]');
     let commentField = page.locator('xpath=//textarea[@id="txt_comment"]');
     let bookAppointmentButton = page.locator('xpath=//button[@id="btn-book-appointment"]');
-    let appointmentConfirmation = page.locator("xpath =//h2[contains(text(), 'Appointment Confirmation')]");
+    let appointmentConfirmation = page.locator('xpath =//section[@id="summary"]');
 
     await dropdownField.selectOption('Tokyo CURA Healthcare Center');
     await checkboxField.click();
@@ -31,7 +31,7 @@ test("Verify the Make Appointment is visible", async ({ page }) => {
     await dateField.press('Escape');
     await commentField.fill("Book Appointment");
     await bookAppointmentButton.click();
-    await page.waitForTimeout(30000);
-    await expect(appointmentConfirmation).toBeVisible();
+    await page.waitForTimeout(3000);
+    await expect(appointmentConfirmation).toContainText('Appointment Confirmation')
 
 });
