@@ -81,6 +81,13 @@ tests/
 - `tests/02_first_tests/Incognito_Mode.spec.ts` - Incognito mode testing
 - `tests/03_Locators_Commands/238_LS.spec.ts` - Locator commands
 - `tests/03_Locators_Commands/239_Project_VWO_Login.spec.ts` - VWO login page error verification
+- `tests/03_Locators_Commands/240_Aria_Role.spec.ts` - ARIA role locators
+- `tests/03_Locators_Commands/241_Project_3_Signup_VWO.spec.ts` - VWO signup project
+- `tests/03_Locators_Commands/242_Project_3_SignUp_VWO_PW.spec.ts` - VWO signup with Playwright
+- `tests/03_Locators_Commands/243_PW_Command.spec.ts` - Playwright commands
+- `tests/03_Locators_Commands/244_Referer_PW.spec.ts` - Referer header testing with Playwright
+- `tests/03_Locators_Commands/245_GetByRole_PW.spec.ts` - GetByRole locator
+- `tests/03_Locators_Commands/246_PressSeq.spec.ts` - Keyboard press sequence
 - `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise (locator strategies, form interactions, date picker handling, assertions)
 - `tests/03_Locators_Commands/Referer.spec.ts` - Referer header testing
 
@@ -121,3 +128,7 @@ This project covers the following Playwright topics:
 - **Shadow DOM** - Working with shadow DOM components
 - **File Operations** - Upload and download handling
 - **Scroll Actions** - Element scrolling techniques
+- **ARIA Roles** - Using ARIA role locators for accessible element selection
+- **GetByRole** - Role-based locators for better test readability
+- **Keyboard Actions** - Press sequences and keyboard interactions
+- **Playwright Commands** - Core Playwright API commands and utilities
