@@ -81,7 +81,7 @@ tests/
 - `tests/02_first_tests/Incognito_Mode.spec.ts` - Incognito mode testing
 - `tests/03_Locators_Commands/238_LS.spec.ts` - Locator commands
 - `tests/03_Locators_Commands/239_Project_VWO_Login.spec.ts` - VWO login page error verification
-- `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise (locator strategies, form interactions, assertions)
+- `tests/03_Locators_Commands/Exercise.spec.ts` - CURA Healthcare appointment booking exercise (locator strategies, form interactions, date picker handling, assertions)
 - `tests/03_Locators_Commands/Referer.spec.ts` - Referer header testing
 
 ### Other Files
@@ -108,7 +108,7 @@ This project covers the following Playwright topics:
 - **Basic Test Structure** - Test syntax, annotations, and organization
 - **Browser Context & Pages** - Multiple contexts, pages, and incognito mode
 - **Locators & Commands** - Various locator strategies and element interactions
-- **Forms & Input** - Dropdowns, checkboxes, text fields, and form validation
+- **Forms & Input** - Dropdowns, checkboxes, text fields, date pickers, and form validation
 - **Assertions** - Expect assertions and custom matchers
 - **Session Storage** - Handling browser session storage
 - **Allure Reporting** - Test reporting with Allure

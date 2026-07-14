@@ -27,11 +27,12 @@ test("Verify the Make Appointment is visible", async ({ page }) => {
     await checkboxField.click();
     await radioOption.click();
     await dateField.click();
-    await dateField.fill("18/07/2026");
+    await dateField.fill('');
+    await dateField.pressSequentially('07/18/2026');
     await dateField.press('Escape');
     await commentField.fill("Book Appointment");
     await bookAppointmentButton.click();
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(5000);
     await expect(appointmentConfirmation).toContainText('Appointment Confirmation')
 
 });
