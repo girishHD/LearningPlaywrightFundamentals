@@ -7,9 +7,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.0",
+    "allure-js-commons": "^3.10.2",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
   }
 }
