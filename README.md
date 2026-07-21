@@ -100,6 +100,14 @@ tests/
 - `tests/06_Multiple_Element_/Student_Login.spec.ts` - Student login test with multiple elements
 - `tests/07_WebTables/252_WebTables_Dynamic_Xpath.spec.ts` - Dynamic web tables with XPath
 - `tests/07_WebTables/253_WebTables_Dynamic.spec.ts` - Dynamic web tables handling
+- `tests/07_WebTables/254_Filter_PageLoc.spec.ts` - Filter page locator for web tables
+- `tests/07_WebTables/255_WebTable_Xpath.spec.ts` - Web table XPath locators
+- `tests/07_WebTables/256_WebTable_Xpath_Pagination.spec.ts` - XPath pagination for web tables
+- `tests/07_WebTables/257_WebTable_Xpath_Pagination2.spec.ts` - XPath pagination variant
+- `tests/07_WebTables/258_WebTable_Pagination_Fn.spec.ts` - Web table pagination functions
+- `tests/07_WebTables/Dynamic_Table.spec.ts` - Dynamic table handling
+- `tests/07_WebTables/Static_Table.spec.ts` - Static table interactions
+- `tests/07_WebTables/WebTable_Exercise.spec.ts` - Web table practice exercise
 - `tests/07_WebTables/Orange_HRM_Table.spec.ts` - Orange HRM table interactions
 
 ### Other Files
