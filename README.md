@@ -96,6 +96,11 @@ tests/
 - `tests/05_Allure_Reporting/248_TestVWODashboard.spec.ts` - VWO dashboard with Allure reporting
 - `tests/05_Allure_Reporting/249_TestVWODashboard_NoCustomeReport.spec.ts` - VWO dashboard without custom report
 - `tests/06_Multiple_Element_/250_Multi_Element.spec.ts` - Handling multiple elements
+- `tests/06_Multiple_Element_/251_Multi_Element_Direct.spec.ts` - Direct multiple element handling
+- `tests/06_Multiple_Element_/Student_Login.spec.ts` - Student login test with multiple elements
+- `tests/07_WebTables/252_WebTables_Dynamic_Xpath.spec.ts` - Dynamic web tables with XPath
+- `tests/07_WebTables/253_WebTables_Dynamic.spec.ts` - Dynamic web tables handling
+- `tests/07_WebTables/Orange_HRM_Table.spec.ts` - Orange HRM table interactions
 
 ### Other Files
 
