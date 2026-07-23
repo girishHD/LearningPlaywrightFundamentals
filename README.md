@@ -113,6 +113,8 @@ tests/
 - `tests/08_Web_Select_Frames_Iframe/259_Select.spec.ts` - Select operations in frames
 - `tests/08_Web_Select_Frames_Iframe/260_Custome_DD_Select.spec.ts` - Custom dropdown select
 - `tests/08_Web_Select_Frames_Iframe/261_Advance_Select_Pro.spec.ts` - Advanced select pro operations
+- `tests/08_Web_Select_Frames_Iframe/MakeMyTrip_Project.spec.ts` - MakeMyTrip project flight search automation
+- `tests/08_Web_Select_Frames_Iframe/SpciceJet_Project.spec.ts` - SpiceJet project flight search automation
 
 ### Other Files
 

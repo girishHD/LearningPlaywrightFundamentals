@@ -10,7 +10,7 @@ test('Verify Find the First Terminated Employee', async ({ page }) => {
 
     await page.locator("button[type='submit']").click();
 
-    await expect(page.getByAltText('profile picture')).toBeVisible();
+    await expect(page.locator("//h6[text()='PIM']")).toBeVisible();
 
     //((//div[contains(@class,"oxd-table-row")])[7]/div)[6]
 
@@ -20,9 +20,7 @@ test('Verify Find the First Terminated Employee', async ({ page }) => {
 
     const row = page.locator("//div[contains(@class,'oxd-table-row')]");
     const rowCount = await row.count();
-
-    const cols = page.locator("(//div[contains(@class,'oxd-table-row')])[7]/div");
-
+    const cols = page.locator("(//div[contains(@class,'oxd-table-row')])[2]/div");
     const colsCount = await cols.count();
 
     for (let i = 2; i <= rowCount; i++) {
@@ -36,7 +34,6 @@ test('Verify Find the First Terminated Employee', async ({ page }) => {
                 await expect(alertbox).toBeVisible();
                 await alertbox.click();
                 break;
-
             }
         }
     }
