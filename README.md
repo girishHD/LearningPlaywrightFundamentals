@@ -109,6 +109,10 @@ tests/
 - `tests/07_WebTables/Static_Table.spec.ts` - Static table interactions
 - `tests/07_WebTables/WebTable_Exercise.spec.ts` - Web table practice exercise
 - `tests/07_WebTables/Orange_HRM_Table.spec.ts` - Orange HRM table interactions
+- `tests/07_WebTables/Orange_HRM_Table_nth_Approach.spec.ts` - Orange HRM table nth approach
+- `tests/08_Web_Select_Frames_Iframe/259_Select.spec.ts` - Select operations in frames
+- `tests/08_Web_Select_Frames_Iframe/260_Custome_DD_Select.spec.ts` - Custom dropdown select
+- `tests/08_Web_Select_Frames_Iframe/261_Advance_Select_Pro.spec.ts` - Advanced select pro operations
 
 ### Other Files
 
