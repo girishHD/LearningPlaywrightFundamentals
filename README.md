@@ -115,6 +115,15 @@ tests/
 - `tests/08_Web_Select_Frames_Iframe/261_Advance_Select_Pro.spec.ts` - Advanced select pro operations
 - `tests/08_Web_Select_Frames_Iframe/MakeMyTrip_Project.spec.ts` - MakeMyTrip project flight search automation
 - `tests/08_Web_Select_Frames_Iframe/SpciceJet_Project.spec.ts` - SpiceJet project flight search automation
+- `tests/09_Frame_Iframe/262_Iframe.spec.ts` - Basic iframe handling
+- `tests/09_Frame_Iframe/263_frameSet.spec.ts` - Frameset handling
+- `tests/09_Frame_Iframe/264_Iframe_Part2.spec.ts` - Advanced iframe operations
+- `tests/10_Keyboard_Hover_Drag_Drop/265_Keyboard.spec.ts` - Keyboard interaction tests
+- `tests/10_Keyboard_Hover_Drag_Drop/266_Advance_Drag_Drop.spec.ts` - Advanced drag and drop
+- `tests/10_Keyboard_Hover_Drag_Drop/266_SpiceJet_Hover.spec.ts` - SpiceJet hover menu
+- `tests/10_Keyboard_Hover_Drag_Drop/267_Drag_Drop.spec.ts` - Basic drag and drop
+- `tests/10_Keyboard_Hover_Drag_Drop/269_Context_Menu.spec.ts` - Context menu handling
+- `tests/10_Keyboard_Hover_Drag_Drop/Hover_Menu.spec.ts` - Hover menu interactions
 
 ### Other Files
 
