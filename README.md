@@ -124,6 +124,10 @@ tests/
 - `tests/10_Keyboard_Hover_Drag_Drop/267_Drag_Drop.spec.ts` - Basic drag and drop
 - `tests/10_Keyboard_Hover_Drag_Drop/269_Context_Menu.spec.ts` - Context menu handling
 - `tests/10_Keyboard_Hover_Drag_Drop/Hover_Menu.spec.ts` - Hover menu interactions
+- `tests/11_JS_Alerts/270_JS.spec.ts` - JavaScript alert, confirm, and prompt dialog handling
+- `tests/12_Handle_SVG/271_SVG.spec.ts` - SVG element interaction on Flipkart search
+- `tests/12_Handle_SVG/SVG.spec.ts` - SVG interaction with title and price extraction on Flipkart
+- `tests/12_Handle_SVG/Tagging.spec.ts` - Test tagging with smoke and regression annotations
 
 ### Other Files
 
