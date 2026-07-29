@@ -126,8 +126,14 @@ tests/
 - `tests/10_Keyboard_Hover_Drag_Drop/Hover_Menu.spec.ts` - Hover menu interactions
 - `tests/11_JS_Alerts/270_JS.spec.ts` - JavaScript alert, confirm, and prompt dialog handling
 - `tests/12_Handle_SVG/271_SVG.spec.ts` - SVG element interaction on Flipkart search
+- `tests/12_Handle_SVG/272_SVG_Practice.spec.ts` - SVG practice exercises
+- `tests/12_Handle_SVG/273_Advance_SVG.spec.ts` - Advanced SVG element handling
 - `tests/12_Handle_SVG/SVG.spec.ts` - SVG interaction with title and price extraction on Flipkart
 - `tests/12_Handle_SVG/Tagging.spec.ts` - Test tagging with smoke and regression annotations
+- `tests/13_Shadow_DOM/274_Shadow_DOM.spec.ts` - Shadow DOM element interaction
+- `tests/14_FileUpload/275_File_Upload.spec.ts` - Single file upload handling
+- `tests/14_FileUpload/276_Multiple_File_Upload.spec.ts` - Multiple file upload handling
+- `tests/15_File_Download/277_File_Download.spec.ts` - File download handling
 
 ### Other Files
 
