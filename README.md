@@ -133,7 +133,12 @@ tests/
 - `tests/13_Shadow_DOM/274_Shadow_DOM.spec.ts` - Shadow DOM element interaction
 - `tests/14_FileUpload/275_File_Upload.spec.ts` - Single file upload handling
 - `tests/14_FileUpload/276_Multiple_File_Upload.spec.ts` - Multiple file upload handling
-- `tests/15_File_Download/277_File_Download.spec.ts` - File download handling
+- `tests/14_FileUpload/File_Upload.spec.ts` - Multiple file upload on PatternFly with verification
+- `tests/14_FileUpload/Upload_Task.spec.ts` - Avatar image upload task
+- `tests/15_File_Download/277_File_Download.spec.ts` - File download handling with getByTestId
+- `tests/15_File_Download/Download_task.spec.ts` - Download resume from QAJobFit
+- `tests/16_Scroll_toElement/278_ScrollToView.spec.ts` - Scroll techniques (scrollIntoViewIfNeeded, scrollBy, scrollTo) and lazy load
+- `tests/16_Scroll_toElement/Lazy_Load.spec.ts` - Lazy load scrolling with expect.poll assertion
 
 ### Other Files
 

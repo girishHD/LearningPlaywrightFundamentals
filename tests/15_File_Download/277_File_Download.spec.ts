@@ -11,7 +11,7 @@ test.describe("File Downloafd Code", () => {
 
         const [staticDownload] = await Promise.all([
             page.waitForEvent("download"),
-            page.locator("#dl_static").click()
+            page.getByTestId("download-static").click()
         ]);
         const filepath = path.join('out', staticDownload.suggestedFilename())
         await staticDownload.saveAs(filepath);
