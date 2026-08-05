@@ -9,3 +9,8 @@ node_modules/
 
 # Test Reports
 tta-report/
+
+# Tooling & Test Artifacts
+.commandcode/
+out/
+tests/**/out/

@@ -139,6 +139,31 @@ tests/
 - `tests/15_File_Download/Download_task.spec.ts` - Download resume from QAJobFit
 - `tests/16_Scroll_toElement/278_ScrollToView.spec.ts` - Scroll techniques (scrollIntoViewIfNeeded, scrollBy, scrollTo) and lazy load
 - `tests/16_Scroll_toElement/Lazy_Load.spec.ts` - Lazy load scrolling with expect.poll assertion
+- `tests/17_Expect_Assertions/279_Expect.spec.ts` - Basic expect assertion verification
+- `tests/17_Expect_Assertions/280_Expect.spec.ts` - Locator-based assertions
+- `tests/17_Expect_Assertions/281_Expect.spec.ts` - Soft assertions and negation
+- `tests/17_Expect_Assertions/282_Project.spec.ts` - Element state project (visible, enabled, disabled, checked)
+- `tests/17_Expect_Assertions/283_Expect_CheetSheet.md` - Expect assertions cheatsheet
+- `tests/17_Expect_Assertions/Visibility_Presence.spec.ts` - Visibility and presence assertions (toBeVisible, toBeHidden, toBeAttached, toBeInViewport)
+- `tests/17_Expect_Assertions/Element_State.spec.ts` - Element state assertions (enabled, disabled, editable, checked, empty, focused)
+- `tests/17_Expect_Assertions/Text_Content.spec.ts` - Text content assertions (toHaveText, toContainText, ignore case)
+- `tests/17_Expect_Assertions/Attributes_Classes_CSS.spec.ts` - Attribute, class and CSS assertions
+- `tests/17_Expect_Assertions/Input_Values_Count.spec.ts` - Input value and count assertions (toHaveValue, toHaveCount)
+- `tests/17_Expect_Assertions/Page_Assertion.spec.ts` - Page-level assertions (title, URL, screenshot)
+- `tests/17_Expect_Assertions/String_Array_Object_Assertions.spec.ts` - String, array and object assertions
+- `tests/17_Expect_Assertions/Numeric_Assertions.spec.ts` - Numeric assertions (toBeGreaterThan, toBeCloseTo)
+- `tests/17_Expect_Assertions/Equality_Assertions.spec.ts` - Equality assertions (toBe, toEqual, toStrictEqual)
+- `tests/17_Expect_Assertions/Error_Assertions.spec.ts` - Error assertions (toThrow)
+- `tests/17_Expect_Assertions/API_Response_Assertion.spec.ts` - API response assertions (toBeOK)
+- `tests/17_Expect_Assertions/Example6.spec.ts` - Role, accessible name, aria snapshot and screenshot assertions
+- `tests/17_Expect_Assertions/Modifiers_Advance_Assertion.spec.ts` - Modifiers and advanced assertions (not, soft, expect.poll, custom timeout)
+- `tests/18_Test_hooks/284_Test_Hook.spec.ts` - Test annotations (skip, slow, fixme, fail)
+- `tests/18_Test_hooks/285_Chrome_Arg_List.md` - Chrome argument list reference
+- `tests/18_Test_hooks/286_Test_Hook_Cheatsheet.md` - Test hooks cheatsheet
+- `tests/18_Test_hooks/287_Group.spec.ts` - Grouped tests with test.step
+- `tests/18_Test_hooks/288_Before_After.spec.ts` - Before/after hooks (beforeEach, afterEach)
+- `tests/18_Test_hooks/289_TestDescribe.spce.ts` - Test describe grouping and standalone tests
+- `tests/18_Test_hooks/290_TestPriority.spec.ts` - Test priority and tags
 
 ### Other Files
 
