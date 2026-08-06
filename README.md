@@ -164,6 +164,18 @@ tests/
 - `tests/18_Test_hooks/288_Before_After.spec.ts` - Before/after hooks (beforeEach, afterEach)
 - `tests/18_Test_hooks/289_TestDescribe.spce.ts` - Test describe grouping and standalone tests
 - `tests/18_Test_hooks/290_TestPriority.spec.ts` - Test priority and tags
+- `tests/19_Data_Driven_Testing/291_DDT.spec.ts` - Data-driven testing importing test data from JSON
+- `tests/19_Data_Driven_Testing/292_TestData.json` - Test data fixture
+- `tests/19_Data_Driven_Testing/293_Users.json` - User credentials test data
+- `tests/19_Data_Driven_Testing/294_LoginTest.spec.ts` - Login test with JSON-driven data
+- `tests/19_Data_Driven_Testing/295_Read_Write_FileSystem.ts` - Reading and writing JSON files with Node.js fs module
+- `tests/19_Data_Driven_Testing/296_DDT_JSON_Array.spec.ts` - Data-driven testing with in-memory array of objects
+- `tests/19_Data_Driven_Testing/297_DDT_CSV.spec.ts` - Data-driven testing with CSV file data
+- `tests/19_Data_Driven_Testing/298_JSON_DDT.spec.ts` - Data-driven testing with JSON file data
+- `tests/19_Data_Driven_Testing/299_YAML_DDT.spec.ts` - Data-driven testing with YAML file data (js-yaml)
+- `tests/19_Data_Driven_Testing/300_MySQL_DDT.spec.mts` - Data-driven testing with MySQL database data (mysql2)
+- `tests/19_Data_Driven_Testing/301_XLSX_DDT.spec.ts` - Data-driven testing with Excel XLSX file data (xlsx)
+- `tests/19_Data_Driven_Testing/util/csvReader.ts` - CSV parser utility for data-driven tests
 
 ### Other Files
 
@@ -173,6 +185,7 @@ tests/
 - `tests/03_Locators_Commands/form.html` - HTML form for testing
 - `tests/example.spec.ts` - Example test file
 - `tests/Template.spec.ts` - Test template
+- `async_probe.spec.ts` - Async data-driven test generation probe
 - `explain-playwright-skill.md` - Playwright skill documentation
 - `opencode.json` - OpenCode configuration
 

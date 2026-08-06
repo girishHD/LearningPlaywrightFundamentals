@@ -1,0 +1,52 @@
+import { test, expect } from '@playwright/test';
+import path from 'path';
+import fs from 'fs';
+import yaml from 'js-yaml';
+
+interface LoginData {
+    description: string;
+    username: string;
+    password: string;
+    shouldPass: boolean;
+    expectedError: string;
+}
+
+const fileContents = fs.readFileSync(path.join(__dirname, 'test-data/login-data.yml'), 'utf-8');
+const loginData = yaml.load(fileContents) as LoginData[];
+
+test.describe('DDT YAML', () => {
+
+    test.beforeEach(async ({ page }) => {
+        await page.goto('https://app.thetestingacademy.com/playwright/multiple_element_filter');
+    });
+
+    test.afterEach(async ({ }, testInfo) => {
+        console.log(`afterEach: ${testInfo.title} — status: ${testInfo.status}`);
+    });
+
+    for (const data of loginData) {
+
+        test(`Login with : ${data.description}`, async ({ page }) => {
+
+            const textboxEmailAddress = page.getByRole("textbox", { name: "Email Address" });
+            const textboxPassword = page.getByRole("textbox", { name: "Password" })
+                .or(page.locator("#password"))
+                .or(page.locator("[name=\"password\"]"));
+            const buttonLogin = page.getByRole("button", { name: "Login to Practice Account" })
+                .or(page.getByTestId("login-button"))
+                .or(page.getByText("Login to Practice Account"));
+
+            await textboxEmailAddress.fill(data.username);
+            await textboxPassword.fill(data.password);
+            await buttonLogin.click();
+
+            if (data.shouldPass) {
+                await expect(page).not.toHaveURL(/multiple_element_filter/);
+            } else {
+                await expect(page.getByText(data.expectedError)).toBeVisible();
+            }
+        });
+
+    }
+
+});

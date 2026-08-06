@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Girish",
+        "experience": "10",
+        "isTrainer": false,
+        "middlename": null,
+        "skills": [
+            "Javascript",
+            "Playwright",
+            "Selenium"
+        ],
+        "address": {
+            "city": "Nagpur",
+            "country": "India"
+        }
+    ]

@@ -1,0 +1,29 @@
+- description: "valid credentials"
+  username: "admin@gmail.com"
+  password: "admin123"
+  shouldPass: true
+  expectedError: ""
+
+- description: "invalid password"
+  username: "admin@ymail.com"
+  password: "wrongpass"
+  shouldPass: false
+  expectedError: "Invalid Password"
+
+- description: "empty password"
+  username: "pramod@ppp.com"
+  password: ""
+  shouldPass: false
+  expectedError: "Password is required"
+
+- description: "empty username"
+  username: ""
+  password: "admin123"
+  shouldPass: false
+  expectedError: "Email Address is required"
+
+- description: "both empty"
+  username: ""
+  password: ""
+  shouldPass: false
+  expectedError: "Email Address is required"

@@ -9,10 +9,15 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.61.1",
+    "@types/js-yaml": "^4.0.9",
+    "@types/mysql": "^2.15.27",
     "@types/node": "^26.1.2",
     "allure-js-commons": "^3.10.2",
     "allure-playwright": "^3.10.2",
-    "path": "^0.12.7"
+    "js-yaml": "^5.2.3",
+    "mysql2": "^3.23.2",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
   },
   "dependencies": {
     "playwright": "^1.61.1"
